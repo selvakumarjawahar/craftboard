@@ -45,6 +45,9 @@
     <ClCompile Include="..\..\imgui\imguiwin32\imgui_impl_win32.cpp">
       <Filter>imguiwindows</Filter>
     </ClCompile>
+    <ClCompile Include="source\mainapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\imgui\imguicore\imconfig.h">

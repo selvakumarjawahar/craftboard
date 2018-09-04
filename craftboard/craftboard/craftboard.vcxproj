@@ -130,6 +130,7 @@
     <ClCompile Include="..\..\imgui\imguidirectx\imgui_impl_dx11.cpp" />
     <ClCompile Include="..\..\imgui\imguiwin32\imgui_impl_win32.cpp" />
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\mainapp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\imgui\imguicore\imconfig.h" />
