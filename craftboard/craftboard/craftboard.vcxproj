@@ -137,6 +137,7 @@
     <ClInclude Include="..\..\imgui\imguicore\imgui_internal.h" />
     <ClInclude Include="..\..\imgui\imguidirectx\imgui_impl_dx11.h" />
     <ClInclude Include="..\..\imgui\imguiwin32\imgui_impl_win32.h" />
+    <ClInclude Include="include\mainapp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
