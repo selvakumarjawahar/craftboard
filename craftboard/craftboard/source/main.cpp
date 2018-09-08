@@ -174,7 +174,24 @@ int main(int, char**)
         
         // 2. Show a simple window that we create ourselves. We use a Begin/End pair to created a named window.
         {
-			MainApp app;
+			//bool p_open = true;
+			//ImGui::ShowDemoWindow(&p_open);
+			
+			bool p_open = true;
+			//ImGui::SetNextWindowSize(ImVec2(350, 560), 4);
+			ImGui::Begin("Custom Widget", &p_open);
+			static float sz = 100.0f;
+			static float thickness = 4.0f;
+			static ImVec4 col = ImVec4(1.0f, 1.0f, 0.4f, 1.0f);
+			const ImVec2 p = ImGui::GetCursorScreenPos();
+			const ImU32 col32 = ImColor(col);
+			float x = p.x + 4.0f, y = p.y + 4.0f, spacing = 8.0f;
+
+			ImDrawList* draw_list = ImGui::GetWindowDrawList();
+			
+			draw_list->AddRect(ImVec2(x, y), ImVec2(x + sz, y + sz), IM_COL32(255, 255, 255, 255), 10.0f, 15,thickness);
+			ImGui::End();
+			
         }
 
         // Rendering
