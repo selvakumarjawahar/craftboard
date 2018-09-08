@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imguicore">
+      <UniqueIdentifier>{88f4c5fa-aa10-4964-8417-62e323938394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguidirectx">
+      <UniqueIdentifier>{2be8dac1-7388-4f59-838c-03666f5ea2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguiwindows">
+      <UniqueIdentifier>{fbba5741-4896-419f-bcef-68e94d86ab4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imguicore\imgui.cpp">
+      <Filter>imguicore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imguicore\imgui_demo.cpp">
+      <Filter>imguicore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imguicore\imgui_draw.cpp">
+      <Filter>imguicore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imguicore\imgui_widgets.cpp">
+      <Filter>imguicore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imguidirectx\imgui_impl_dx11.cpp">
+      <Filter>imguidirectx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imguiwin32\imgui_impl_win32.cpp">
+      <Filter>imguiwindows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mainapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imgui\imguicore\imconfig.h">
+      <Filter>imguicore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imguicore\imgui.h">
+      <Filter>imguicore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imguicore\imgui_internal.h">
+      <Filter>imguicore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imguidirectx\imgui_impl_dx11.h">
+      <Filter>imguidirectx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imguiwin32\imgui_impl_win32.h">
+      <Filter>imguiwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mainapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
