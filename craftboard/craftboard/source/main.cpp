@@ -188,10 +188,8 @@ int main(int, char**)
 			float x = p.x + 4.0f, y = p.y + 4.0f, spacing = 8.0f;
 
 			ImDrawList* draw_list = ImGui::GetWindowDrawList();
-			//draw_list->AddCircle(ImVec2(x + sz * 0.5f, y + sz * 0.5f), 36.0*0.5f, col32, 20, thickness); sz += 0.5f;
+			
 			draw_list->AddRect(ImVec2(x, y), ImVec2(x + sz, y + sz), IM_COL32(255, 255, 255, 255), 10.0f, 15,thickness);
-			//draw_list->AddRectFilled(ImVec2(x, y), ImVec2(x + sz, y + sz), IM_COL32(255,255,255,255), 10.0f);
-			//draw_list->AddRectFilledMultiColor(ImVec2(x, y), ImVec2(x + sz, y + sz), IM_COL32(0, 0, 0, 255), IM_COL32(255, 0, 0, 255), IM_COL32(255, 255, 0, 255), IM_COL32(0, 255, 0, 255));
 			ImGui::End();
 			
         }
